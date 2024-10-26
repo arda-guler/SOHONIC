@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Consolas,monaco,monospace;
+}
+
+header {
+    background-color:rgb(0,170,0);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    font-family: Consolas,monaco,monospace; 
+    color: rgb(0,255,0);
+    text-align: center;
+}
+
+p {
+	font-family: Consolas,monaco,monospace; 
+    color:rgb(0,255,0);
+}
+
+.sounds {
+    width: 58%; /* Use the remaining space for sounds */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: Consolas,monaco,monospace;
+    background-color:rgb(0,170,0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

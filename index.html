@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOHONIC</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        video {
+            width: 360px; /* Set video width to 360 pixels */
+        }
+        img {
+            width: 360px; /* Set image width to 360 pixels */
+        }
+        .media-content {
+            display: flex; /* Use Flexbox for layout */
+            align-items: flex-start; /* Align items at the top */
+        }
+        .image-gallery {
+            display: flex; /* Flexbox for images */
+            flex-direction: row; /* Stack images vertically */
+            margin-left: 20px; /* Space between audio/video and images */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SOHOnic: Sonification of SOHO images</h1>
+    </header>
+    <div class="container">
+        
+            <div class="media-container">
+                <h2>20240530_20240531</h2>  <!-- Folder name as title -->
+                <div class="media-content">
+                    
+                    <video controls style="width: 360px;">
+                        <source src="data/20240530_20240531\20240530_20240531.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    
+                    
+                    <audio controls>
+                        <source src="data/20240530_20240531\20240530_20240531.wav" type="audio/wav">
+                        Your browser does not support the audio tag.
+                    </audio>
+                    
+                    <div class="image-gallery">
+                        
+                    <img src="data/20240530_20240531\20240530_20240531_axicity.png" alt="20240530_20240531_axicity.png" width="360">
+                    
+                    <img src="data/20240530_20240531\20240530_20240531_brightness.png" alt="20240530_20240531_brightness.png" width="360">
+                    
+                    <img src="data/20240530_20240531\20240530_20240531_weight.gif" alt="20240530_20240531_weight.gif" width="360">
+                    
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    <footer>
+        <p>All images in this page are from SOHO (ESA & NASA). https://soho.nascom.nasa.gov/data/summary/copyright.html<br>Audio by H. A. Guler (https://github.com/arda-guler)</p>
+    </footer>
+</body>
+</html>
